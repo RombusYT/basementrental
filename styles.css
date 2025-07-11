@@ -1,0 +1,118 @@
+/* styles.css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html,
+body {
+    background-color: #f9f9f9;
+}
+.navbar {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+.navbtn{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #e6e6e6;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropbtn {
+    padding: 10px;
+    margin: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #c8c5c5e6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.centerifiedpara {
+    text-align: center;
+    margin: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.parahead {
+    margin: 30px;
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 30px;
+}
+.parap {
+    margin: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    font-size:14px;
+}
+footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: white;
+    padding:20px;
+}
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  
+}
+
+.tile {
+  flex: 1 1 200px;
+  border: 1px solid #ccc; 
+  padding: 15px; 
+}
+.tile img:hover{
+    transform: scale(1.05);
+}
